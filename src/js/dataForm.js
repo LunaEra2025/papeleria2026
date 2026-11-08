@@ -100,6 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (deleteProduct.estado) {
                 mostrarAlerta(deleteProduct.mensaje, "alert alert-success");
                 rowDelete.remove(); // Elimina la fila de la tabla
+                actualizarDashboard();
             }
 
 
